@@ -1,0 +1,14 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: markdown
+- file: matematika-diskrit
+- file: Algoritma dari squential search dan binary search (1)
+- file: BOOLEAN ALGEBRA
+- file: Deretan dan Rekursi
+- file: graph
+- file: Himpunan
+- file: logika dan pembuktian Mohammad Aziz Huzaini 240411100079 (2)
