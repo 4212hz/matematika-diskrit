@@ -128,13 +128,13 @@ Secara matematis, deret Fibonacci didefinisikan sebagai:
 
 # Tugas Pembuktian 3 Rumus
 
-## Rumus 1
+## Pembuktian Rumus 1
 $S_n = \sum_{k=0}^n ar^k = a \left( 1 + r + r^2 + \cdots + r^n \right)$
 $S_n = a \cdot \frac{1 - r^{n+1}}{1 - r} \quad \text{untuk } r \neq 1$
 $S_n = \frac{a (1 - r^{n+1})}{1 - r}$
 $S_n = \frac{ar^{n+1} - a}{r - 1}$
 
-## rumus 2 
+## Pembuktian rumus 2
 $S_n = \sum_{k=1}^n k$
 $S_n = 1 + 2 + 3 + \cdots + n$
 $S_n = n + (n-1) + (n-2) + \cdots + 1$
@@ -142,7 +142,7 @@ $2S_n = (1 + n) + (2 + (n-1)) + (3 + (n-2)) + \cdots + (n + 1)$
 $2S_n = n(n+1)$
 $S_n = \frac{n(n+1)}{2}$
 
-## rumus 3
+## Pembuktian rumus 3
 $S_n = \sum_{k=1}^n k^2$
 $S_{k+1} = \sum_{k=1}^{k+1} k^2 = \sum_{k=1}^k k^2 + (k+1)^2$
 $S_{k+1} = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$
@@ -152,3 +152,4 @@ $S_{k+1} = \frac{(k+1)(k(2k+3)+6)}{6}$
 $S_{k+1} = \frac{(k+1)k(2k+3)}{6}$
 $S_{k+1} = \frac{(k+1)(k+2)(2k+1)}{6}$
 $\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6}$
+
